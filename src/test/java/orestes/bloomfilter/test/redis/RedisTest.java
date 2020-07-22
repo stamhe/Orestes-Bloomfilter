@@ -4,7 +4,7 @@ import orestes.bloomfilter.test.MemoryBFTest;
 import org.junit.Ignore;
 import org.junit.Test;
 import redis.clients.jedis.*;
-import redis.clients.util.SafeEncoder;
+import redis.clients.jedis.util.SafeEncoder;
 
 import java.util.ArrayList;
 import java.util.Arrays;
