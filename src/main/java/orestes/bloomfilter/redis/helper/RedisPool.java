@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Response;
-import redis.clients.util.Pool;
+import redis.clients.jedis.util.Pool;
 
 import java.time.Clock;
 import java.time.Duration;

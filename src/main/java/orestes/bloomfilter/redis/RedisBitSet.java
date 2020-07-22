@@ -2,7 +2,7 @@ package orestes.bloomfilter.redis;
 
 import orestes.bloomfilter.redis.helper.RedisPool;
 import redis.clients.jedis.PipelineBase;
-import redis.clients.util.SafeEncoder;
+import redis.clients.jedis.util.SafeEncoder;
 
 import java.util.BitSet;
 import java.util.List;
